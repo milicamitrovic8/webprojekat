@@ -10,3 +10,5 @@ RUN apt update
 RUN apt install nodejs npm -y
 COPY ./requirements.txt /usr/src/docker_environment
 RUN pip install -r requirements.txt
+
+
